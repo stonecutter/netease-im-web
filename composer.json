@@ -1,0 +1,29 @@
+{
+    "name": "excitedcat/netease-im-web",
+    "description": "网易云信网页版客户端",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^5.5",
+        "php": ">=7.1"
+    },
+    "authors": [
+        {
+            "name": "kangfenmao",
+            "email": "kangfenmao@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StoneCutter\\NetEaseIMWeb\\PackageServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "StoneCutter\\NetEaseIMWeb\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
